@@ -182,7 +182,7 @@ export default function Technologies() {
             <div className={styles.optionsContainer}>
                 {
                     menuItems.map((item, i) => (
-                        <button onClick={() => setSelectItem(item.title)}>{item.title}</button>
+                        <button  key={item.title} onClick={() => setSelectItem(item.title)}>{item.title}</button>
                     ))
                 }
             </div>
@@ -192,7 +192,7 @@ export default function Technologies() {
                     menuItems.filter((item) => selectItem == item.title )
                     .map((item, i) => (
                         item.techs.map((tech) => (
-                            <div>
+                            <div key={tech.name}>
                                 <img src={tech.icon} alt="" />
                                 <p> {tech.name}</p>
                                 </div>

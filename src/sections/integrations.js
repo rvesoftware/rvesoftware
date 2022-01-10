@@ -42,7 +42,7 @@ export default function Integrations() {
 
       <div className={styles.box}>
         {data.map((item) => (
-          <span>
+          <span key={item.icon}>
             <img src={item.icon} alt={item.name} />
             <h2>{item.name}</h2>
             <p>{item.description}</p>

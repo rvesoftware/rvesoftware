@@ -12,7 +12,7 @@ export default function Header() {
         </div>
         <div>
           {menuItems.map((item, i) => (
-            <Link href={item.path} key={i}>
+            <Link key={item.spanishLabel} href={item.path} key={i}>
               <a>{item.spanishLabel}</a>
             </Link>
           ))}

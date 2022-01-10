@@ -5,17 +5,17 @@ export default [
         englishLabel: 'Home',
     },
     {
-        path: 'services',
+        path: '/services',
         spanishLabel: 'Servicios',
         englishLabel: 'Services',
     },
     {
-        path: 'solutions',
+        path: '/solutions',
         spanishLabel: 'Soluciones',
         englishLabel: 'Solutions',
     },
     {
-        path: 'about',
+        path: '/about',
         spanishLabel: 'Nosotros',
         englishLabel: 'About US',
     },

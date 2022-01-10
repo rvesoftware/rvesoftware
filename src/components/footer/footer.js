@@ -16,7 +16,7 @@ export default function Footer() {
                     </a></Link>
                 <nav>
                     {menuItems.map((item, i) => (
-                        <Link href={item.path}><a>{item.spanishLabel}</a></Link>
+                        <Link key={item.spanishLabel} href={item.path}><a>{item.spanishLabel}</a></Link>
                     ))}
                 </nav>
                 <p>Copyright &copy; {new Date().getFullYear()} Real Vision Enterprise</p>
