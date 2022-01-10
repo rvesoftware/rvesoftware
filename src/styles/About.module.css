@@ -1,0 +1,81 @@
+.container{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 140px;
+    width: 90%;
+    max-width: 1100px;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.container p{
+    /* text-align: center; */
+    
+}
+
+.firstP{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.secondP{
+    margin-bottom: 2rem;
+}
+
+.mainSection{
+    min-height: 60vh;
+    margin-bottom: 260px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainSection h2{
+    font-size: 5rem;
+    margin: 3rem 0;
+    opacity: .8;
+    font-weight: 900;
+    letter-spacing: .001rem;
+    
+}
+
+.mainSection p{
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .8);
+    line-height: 2.5rem;
+}
+
+.secSection{
+    margin-bottom: 8rem;
+}
+
+.secSection h2{
+    margin-bottom: 7rem;
+}
+.secSection img{
+    filter:grayscale(100%);
+}
+
+.secSection > div{
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.secSection > div h3{
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.secSection > div ul li{
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, .5);
+    margin-bottom: .5rem;
+}

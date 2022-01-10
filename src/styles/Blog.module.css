@@ -1,0 +1,89 @@
+.container{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1100px;
+    position: relative;
+    margin-top: 130px;
+    gap: 2rem;
+}
+
+.blogHeader{
+    /* display: flex; */
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.blogHeader aside div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 2rem;
+}
+
+.blogHeader aside ul{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.formGroup{
+    border-bottom: 1px solid rgba(0, 0, 0, .5) ;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, .6);
+    margin-bottom: 2rem;
+    gap: .5rem;
+}
+
+.formGroup input{
+    border: none;
+    font-size: 1.8rem;
+
+}
+
+.principalArticle{
+    display: flex;
+    gap: 2rem;
+}
+
+.principalArticle h2{
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 900;
+    margin: 1rem 0;
+}
+
+.principalArticle > div{
+    width: 80%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.principalArticle img{
+    width:100%;
+    object-fit: cover;
+}
+
+.articlesBox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;   
+}
+
+.article{
+
+}
+
+.article > div{
+    width: 350px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.article img{
+    width: 100%;
+    object-fit: cover;
+}

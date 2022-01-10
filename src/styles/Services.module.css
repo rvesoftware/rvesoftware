@@ -1,0 +1,169 @@
+.container{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 140px;
+    width: 90%;
+    max-width: 1100px;
+}
+
+.mainSection{
+    min-height: 90vh;
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mainSection h2{
+    font-size: 5rem;
+    margin: 3rem 0;
+    opacity: .8;
+    font-weight: 900;
+    letter-spacing: .001rem;
+    text-align: center;   
+}
+
+.mainSection p{
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .8);
+    line-height: 2.5rem;
+    text-align: center;
+    margin-bottom: 35rem;
+}
+
+.secContainer{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 90%;
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 2rem;
+    /* padding: 4rem 0; */
+}
+
+.secContainer > img{
+    grid-column: 2;
+}
+
+
+.secContainer > div{
+    grid-column: 1;
+}
+
+.invert{
+    grid-auto-flow: dense;
+}
+
+.invert > img{
+    grid-column: 1;
+}
+
+.invert > div{
+    grid-column: 2;
+}
+
+.secContainer > div{
+    width: 100%;
+}
+
+
+.secContainer > div h2{
+    margin-bottom: 3rem;
+}
+
+
+.secContainer > div p{
+    line-height: 1.5;
+    font-size: 1.4;
+    color: rgba(0, 0, 0, .8);
+}
+
+
+.secContainer > div > div{
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+
+.secContainer > div > div img{
+    width: 40px;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.secContainer img{
+    width: 100%;
+}
+
+.secContainer > div > ul{
+    list-style: circle;
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    padding: 2rem;
+    border-radius: .5rem;
+    margin: 2rem 0;
+}
+
+.form > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.form > div label{
+    font-size: 1.2rem;
+    margin: .5rem 0;
+}
+
+.form input{
+    width: 100%;
+    padding: 1rem 1rem;
+    border: 1px solid rgba(0, 0, 0, .2);
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+
+}
+
+.form select{
+    width: 100%;
+    padding: 1rem 1rem;
+    border: none;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+
+}
+
+.form textarea{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.form > div span{
+    display: flex;
+    gap: 2rem;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

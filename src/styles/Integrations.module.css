@@ -1,0 +1,42 @@
+.container{
+    padding-top: 8rem;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container h2{
+    font-size: 3rem;
+    color: #475569;
+}
+
+.box{
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.box span{
+    text-align: center;
+    margin: 1rem 2.5rem;
+    max-width: 300px;
+}
+
+.box span h2{
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.box span p{
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    font-weight: 100;
+    line-height: 1;
+    margin-top: 1rem;
+    max-width: 200px;
+    color: #475569;
+}
