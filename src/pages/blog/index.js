@@ -49,7 +49,6 @@ export default function index() {
               <li>Desarrollo</li>
             </ul>
             </div>
-
           </aside>
           <article className={styles.principalArticle}>
               <div>
