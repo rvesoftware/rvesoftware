@@ -1,6 +1,6 @@
 export default [
     {
-        path: '/',
+        path: '/home',
         spanishLabel: 'Inicio',
         englishLabel: 'Home',
     },
