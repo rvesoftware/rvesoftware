@@ -38,7 +38,7 @@ export default function index() {
               <div>
 
             <div className={styles.formGroup}>
-              <i class="bx bx-search-alt-2"></i>
+              <i className="bx bx-search-alt-2"></i>
               <input type="search" name="" id="" placeholder="Buscar" />
             </div>
             <ul>
