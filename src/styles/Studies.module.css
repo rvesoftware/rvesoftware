@@ -1,0 +1,15 @@
+.container{
+    padding-top: 8rem;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container h2{
+    font-size: 3rem;
+    color: #475569;
+}

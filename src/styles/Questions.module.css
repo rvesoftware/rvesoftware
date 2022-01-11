@@ -22,6 +22,7 @@
     width: 60%;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
+    align-items: flex-start;
 }
 
 .box details{
@@ -32,4 +33,25 @@
     width: 48%;
     min-width: 550px;
     max-width: 600px;
+    transition: all 1s;
+
+}
+
+
+.container summary{
+    padding: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-weight: 800;
+    color: rgba(0, 0, 0, .8);
+    transition: all 1s;
+}
+
+.container details p{
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    line-height: 1.5;
+    padding: .5rem 1rem;
+    transition: all 1s;
+
 }
