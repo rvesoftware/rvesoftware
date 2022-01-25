@@ -32,3 +32,21 @@
     font-weight: 400;
     letter-spacing: .1rem;
 }
+
+.menu{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .container a{
+        display: none;
+    }
+    
+    .menu{
+        display: block;
+        background-color: transparent;
+        border: none;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+}

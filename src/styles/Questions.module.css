@@ -15,6 +15,10 @@
 }
 
 
+.container p{
+    text-align: center;
+}
+
 .box{
     display: grid;
     margin: 4rem auto;
@@ -54,4 +58,22 @@
     padding: .5rem 1rem;
     transition: all 1s;
 
+}
+
+
+@media screen and (max-width: 800px) {
+    .box{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .box details{
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        transition: all 1s;
+    
+    }
+    
+    
 }

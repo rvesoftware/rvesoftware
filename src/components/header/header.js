@@ -16,8 +16,10 @@ export default function Header() {
               <a>{item.spanishLabel}</a>
             </Link>
           ))}
-        
         </div>
+        <button className={styles.menu}>
+        <i className='bx bx-menu'></i>
+        </button>
       </nav>
     </header>
   );

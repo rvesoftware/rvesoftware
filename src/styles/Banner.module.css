@@ -63,3 +63,18 @@
     position: relative;
     height: 645px;
 }
+
+
+@media screen and (max-width: 800px) {
+
+    .contentBox{
+        width: 625px;
+        max-width: 100%;
+    }
+    
+    .imageBox img{
+        width: 100%;
+        height: auto;
+    }
+    
+}

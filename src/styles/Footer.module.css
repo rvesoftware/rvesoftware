@@ -72,3 +72,11 @@
   z-index: 0;
   left: 49%;
 }
+
+
+
+@media screen and (max-width: 800px) {    
+    .footer nav{
+        display: none;
+    }
+}
