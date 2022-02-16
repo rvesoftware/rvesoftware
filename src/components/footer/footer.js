@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <footer className={styles.footer}>
             {/* <div className={styles.clock}>
-            <div class={styles.outerclockface}>
+            <div className={styles.outerclockface}>
 
 </div>
 
