@@ -167,3 +167,21 @@
     justify-content: center;
     flex-direction: column;
 }
+
+.btn{
+    border: none;
+    background-color: #1A5DFF;
+    padding: .5rem;
+    margin-top: 2rem;
+    border-radius: .5rem;
+    color: #f2f6fa;
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width:800px) {
+    .secContainer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}

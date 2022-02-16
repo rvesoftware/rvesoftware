@@ -5,29 +5,32 @@ export default function About() {
   return (
     <Layout>
       <div className={styles.container}>
-          <section className={styles.mainSection}>
-              <p> Empresa de Desarrollo de Software Activa desde 2017</p>
-              <h2>Nuestro Tesoro es la Gente, nuestra Vision y los Valores</h2>
-              <p>Real Vision Software no solo es una empresa de tecnologia reconocida a nivel mundial, sino tambien una familia llena de expertos talentosos que ayudan a marcas globales, grandes empresas, medianas empresas o incluso nuevas empresas con soluciones innovadoras. </p>
-          </section>
-          <section className={styles.secSection}>
-            <h2>Nuestra Ubicacion </h2>
-            <div>
-
+        <section className={styles.mainSection}>
+          <p> Empresa de Desarrollo de Software Activa desde 2017</p>
+          <h2>Nuestro Tesoro es la Gente, nuestra Vision y los Valores</h2>
+          <p>
+            Real Vision Software no solo es una empresa de tecnologia reconocida
+            a nivel mundial, sino tambien una familia llena de expertos
+            talentosos que ayudan a marcas globales, grandes empresas, medianas
+            empresas o incluso nuevas empresas con soluciones innovadoras.{" "}
+          </p>
+        </section>
+        <section className={styles.secSection}>
+          <h2>Nuestra Ubicacion </h2>
+          <div>
             <img src="./assets/hq.png" alt="" />
             <span>
-
-            <h3>HQ Medellin</h3>
-            <ul>
-              <li>Circular 3 #70-18 Oficina 402</li>
-              <li>Medellin, CO</li>
-              <li>0500050</li>
-              <li>+57 3207768205</li>
-              <li></li>
-            </ul>
+              <h3>HQ Medellin</h3>
+              <ul>
+                <li>Circular 3 #70-18 Oficina 402</li>
+                <li>Medellin, CO</li>
+                <li>0500050</li>
+                <li>+57 3207768205</li>
+                <li></li>
+              </ul>
             </span>
-            </div>
-          </section>
+          </div>
+        </section>
         {/* <section>
           <h2>Somos Real Vision Software</h2>
           <p className={styles.firstP}>

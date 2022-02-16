@@ -182,7 +182,7 @@ export default function Technologies() {
             <div className={styles.optionsContainer}>
                 {
                     menuItems.map((item, i) => (
-                        <button  key={item.title} onClick={() => setSelectItem(item.title)}>{item.title}</button>
+                        <button  className={selectItem == item.title? styles.buttonActive : ""} key={item.title} onClick={() => setSelectItem(item.title)}>{item.title}</button>
                     ))
                 }
             </div>

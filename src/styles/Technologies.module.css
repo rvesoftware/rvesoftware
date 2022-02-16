@@ -24,11 +24,17 @@
 .optionsContainer{
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, .2);
-    width: 45%;
+    /* width: 90%; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
+.optionsContainer button{
+    min-width: 120px;
+}
+
 
 .container button{
     border: none;
@@ -79,11 +85,39 @@
     margin: 0;
 }
 
+.container .buttonActive{
+    border-bottom: 1px solid blue;
+}
 
 @media screen and (max-width: 800px) {
     .optionsContainer{
         width: 100%;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
+        overflow: scroll;
+    }
+
+    .optionsContainer::-webkit-scrollbar {
+        display: none;
+      }
+    
+
+      .optionsContainer::-webkit-scrollbar-thumb {
+        display: none;
+    }
+    
+    
+    
+    .optionsContainer::-webkit-scrollbar-thumb:hover {
+        display: none;    
+    }
+    
+    
+    .optionsContainer::-webkit-scrollbar-thumb:active {
+        display: none;
+    }
+
+    .optionsContainer button{
+        min-width: 120px;
     }
     
     .techs{

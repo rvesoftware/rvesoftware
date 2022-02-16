@@ -46,7 +46,7 @@ export default function Solutions() {
             <img src="./assets/icons/icons8-amazon-web-services.svg" alt="" />
             <img src="./assets/icons/icons8-python.svg" alt="" />
           </div>
-          <img src="./assets/mockup.png" alt="" />
+          <img className={styles.techBigImg} src="./assets/mockup.png" alt="" />
         </section>
       </div>
     </Layout>

@@ -87,3 +87,31 @@
     width: 100%;
     object-fit: cover;
 }
+
+
+@media screen and (max-width:800px) {
+
+    .blogHeader aside div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .blogHeader aside div input{
+        outline: none;
+        padding: .5rem;
+    }
+
+    .blogHeader aside ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .principalArticle{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}

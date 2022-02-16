@@ -79,3 +79,13 @@
     color: rgba(0, 0, 0, .5);
     margin-bottom: .5rem;
 }
+
+@media screen and (max-width:800px) {
+
+    .secSection > div{
+        justify-content: center;
+    }
+    .secSection img{
+        width: 50%;
+    }
+}

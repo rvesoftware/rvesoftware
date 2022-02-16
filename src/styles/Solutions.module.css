@@ -103,3 +103,17 @@
     color: rgba(0, 0, 0, .8);
     margin: 2rem;
 }
+
+
+
+@media screen and (max-width:800px) {
+
+    .cardContainer{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .techBigImg{
+        width: 100%;
+    }
+}
