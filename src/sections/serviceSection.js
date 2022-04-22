@@ -15,7 +15,7 @@ export default function ServiceSection({
         <p>{text}</p>
         <div>
           {images.map((img) => (
-            <img src={img} alt="" />
+            <img src={img} alt="image-services" />
           ))}
         </div>
         <ul>
